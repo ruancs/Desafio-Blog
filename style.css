@@ -34,6 +34,12 @@ h3 {
     color: #000000;
 }
 
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
 .menu {
     display: inline-block;
     width: 50%;
@@ -52,6 +58,7 @@ h3 {
 
 .menu input[type=text] {
     color: white;
+    font-size: medium;
     position: relative;
     background-color: #3EA1DB;
     padding-left: 40px;
