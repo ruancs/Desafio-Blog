@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #F3F5F7;
+}
+
 .head {
     text-align: center;
     width: 100%;
@@ -13,10 +17,21 @@
     background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
 }
 
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+}
+
 h2 {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
     color: #f0f0f0;
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    color: #000000;
 }
 
 .menu {
@@ -58,4 +73,23 @@ h2 {
     top: 82px;
     left: 2%;
     z-index: 1;
+}
+
+.card {
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    border-radius: 10px;
+    top: 200px;
+    width: 50%;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+}
+
+.title-c {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
