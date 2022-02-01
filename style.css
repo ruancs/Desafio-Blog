@@ -56,6 +56,12 @@ p {
     font-weight: 500;
 }
 
+#lupa {
+    position: relative;
+    margin-left: -6px;
+    
+}
+
 .menu input[type=text] {
     color: white;
     font-size: medium;
@@ -87,7 +93,7 @@ p {
     position: relative;
     text-align: left;
     border-radius: 10px;
-    top: 200px;
+    top: 100px;
     width: 50%;
     height: 200px;
     background-color: #ffffff;
