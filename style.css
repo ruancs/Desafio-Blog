@@ -1,108 +1,129 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: #F3F5F7;
-}
-
-.head {
-    text-align: center;
-    width: 100%;
-    height: 250px;
-    position: relative;
-    height: 250px;
-    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
-}
-
-h1 {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 1000;
-}
-
-h2 {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 700;
-    color: #f0f0f0;
-}
-
-h3 {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 1000;
-    color: #000000;
-}
-
-p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 500;
-    font-size: large;
-}
-
-.menu {
-    display: inline-block;
-    width: 50%;
-    margin-top: 20px;
-    word-spacing: 200px;
-    height: 150px;
-    text-align: left;
-}
-
-::-webkit-input-placeholder {
-    font-family: 'Inter', sans-serif;
-    font-size: medium;
-    color: white;
-    font-weight: 500;
-}
-
-#lupa {
-    position: relative;
-    margin-left: -6px;
-    
-}
-
-.menu input[type=text] {
-    color: white;
-    font-size: medium;
-    position: relative;
-    background-color: #3EA1DB;
-    padding-left: 40px;
-    width: 95.2%;
-    top: 28%;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-    height: 50px;
-    border: none;
-    float: right;
-}
-
-.menu a {
-    position: relative;
-    border: none;
-    background: none;
-    border-bottom: 0px;
-    outline-offset: 0px;
-    top: 82px;
-    left: 2%;
-    z-index: 1;
-}
-
-.card {
-    padding: 20px;
-    position: relative;
-    text-align: left;
-    border-radius: 10px;
-    top: 100px;
-    width: 50%;
-    height: 200px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
-}
-
-.title-c {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
+                                                * {
+                                                margin: 0;
+                                                padding: 0;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                            }
+                                            
+                                            body {
+                                                background-color: #F3F5F7;
+                                            }
+                                            
+                                            .head {
+                                                text-align: center;
+                                                width: 100%;
+                                                height: 250px;
+                                                position: relative;
+                                                height: 250px;
+                                                background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+                                            }
+                                            
+                                            h1 {
+                                                font-family: 'Lexend Deca', sans-serif;
+                                                font-weight: 1000;
+                                            }
+                                            
+                                            h2 {
+                                                font-family: 'Lexend Deca', sans-serif;
+                                                font-weight: 700;
+                                                color: #f0f0f0;
+                                            }
+                                            
+                                            h3 {
+                                                font-family: 'Lexend Deca', sans-serif;
+                                                font-weight: 1000;
+                                                color: #000000;
+                                            }
+                                            
+                                            p {
+                                                font-family: 'Lexend Deca', sans-serif;
+                                                font-weight: 500;
+                                                font-size: large;
+                                            }
+                                            
+                                            .menu {
+                                                display: inline-block;
+                                                width: 50%;
+                                                margin-top: 20px;
+                                                word-spacing: 200px;
+                                                height: 150px;
+                                                text-align: left;
+                                            }
+                                            
+                                             ::-webkit-input-placeholder {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: medium;
+                                                color: white;
+                                                font-weight: 500;
+                                            }
+                                            
+                                            #lupa {
+                                                position: relative;
+                                                margin-left: -6px;
+                                            }
+                                            
+                                            .menu input[type=text] {
+                                                color: white;
+                                                font-size: medium;
+                                                position: relative;
+                                                background-color: #3EA1DB;
+                                                padding-left: 40px;
+                                                width: 95.2%;
+                                                top: 28%;
+                                                background: rgba(255, 255, 255, 0.2);
+                                                border-radius: 5px;
+                                                height: 50px;
+                                                border: none;
+                                                float: right;
+                                            }
+                                            
+                                            .menu a {
+                                                position: relative;
+                                                border: none;
+                                                background: none;
+                                                border-bottom: 0px;
+                                                outline-offset: 0px;
+                                                top: 82px;
+                                                left: 2%;
+                                                z-index: 1;
+                                            }
+                                            
+                                            .card {
+                                                padding: 30px;
+                                                position: relative;
+                                                text-align: left;
+                                                border-radius: 10px;
+                                                top: 100px;
+                                                width: 50%;
+                                                height: auto;
+                                                background-color: #ffffff;
+                                                margin: 0 auto;
+                                                box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+                                            }
+                                            
+                                            .title-c {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                padding: 10px;
+                                            }
+                                            
+                                            .footer {
+                                                color: #F3F5F7;
+                                                padding-top: 50px;
+                                                text-align: center;
+                                                margin-top: 100px;
+                                                height: 100px;
+                                                background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+                                            }
+                                            
+                                            @media only screen and (max-width: 800px) {
+                                                #lupa {
+                                                    left: -12px;
+                                                }
+                                                .menu {
+                                                    position: relative;
+                                                    width: 80%;
+                                                    right: 10px;
+                                                }
+                                                .menu input[type=text] {
+                                                    padding-left: 35px;
+                                                }
